@@ -16,7 +16,7 @@ import arcpy
 def inputs():
     feature_one = arcpy.GetParameterAsText(0)
     feature_two = arcpy.arcpy.GetParameterAsText(1)
-    out_relation = arcpy.arcpy.GetParameterAsText(1)
+    
     RunProcess(feature_one,feature_two)
 def RunProcess(feature_one,feature_two):
     AddField(feature_two)
