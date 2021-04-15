@@ -10,7 +10,7 @@ hemin tikililerin her ikisinin atributuna 1 yazilir.
 
 
 
-from arcpy import arcpy
+import arcpy
 
 ############# Inputs ###############################
 def inputs():
